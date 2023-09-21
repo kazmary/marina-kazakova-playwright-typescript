@@ -1,0 +1,22 @@
+{
+  "name": "playwrighttypescriptuitests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test-html-report": "npx playwright test && npx playwright show-report",
+    "ctest": "npx playwright test --project=chromium",
+    "ftest": "npx playwright test --project=firefox",
+    "wtest": "npx playwright test --project=webkit",
+    "uitest": "npx playwright test --ui",
+    "codegen": "npx playwright codegen"
+  },
+  "keywords": [],
+  "author": "kazmary",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.38.0",
+    "@types/node": "^20.6.3"
+  }
+}
