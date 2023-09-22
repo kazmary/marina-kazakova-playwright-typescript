@@ -10,13 +10,19 @@
     "ftest": "npx playwright test --project=firefox",
     "wtest": "npx playwright test --project=webkit",
     "uitest": "npx playwright test --ui",
-    "codegen": "npx playwright codegen"
+    "codegen": "npx playwright codegen",
+    "lint": "eslint ./",
+    "lint-fix": "eslint ./ --fix"
   },
   "keywords": [],
   "author": "kazmary",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.38.0",
-    "@types/node": "^20.6.3"
+    "@types/node": "^20.6.3",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
+    "eslint": "^8.49.0",
+    "eslint-plugin-react": "^7.33.2"
   }
 }
