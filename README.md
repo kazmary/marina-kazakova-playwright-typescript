@@ -5,8 +5,9 @@ Use node 16+
 
 TO START:
 
-git clone git@github.com:kazmary/marina-kazakova-playwright-typescript.git
-npm install
+- git clone git@github.com:kazmary/marina-kazakova-playwright-typescript.git
+
+- npm install
 
 TO RUN:
 
