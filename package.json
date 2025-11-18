@@ -10,6 +10,7 @@
     "ftest": "npx playwright test --project=firefox",
     "wtest": "npx playwright test --project=webkit",
     "uitest": "npx playwright test --ui",
+    "apitests": "npx playwright test --project=api",
     "codegen": "npx playwright codegen",
     "lint": "eslint ./",
     "lint-fix": "eslint ./ --fix"
@@ -18,11 +19,14 @@
   "author": "kazmary",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.38.0",
-    "@types/node": "^20.6.3",
+    "@playwright/test": "1.56.0",
+    "@types/node": "^22",
     "@typescript-eslint/eslint-plugin": "^6.7.2",
     "@typescript-eslint/parser": "^6.7.2",
     "eslint": "^8.49.0",
-    "eslint-plugin-react": "^7.33.2"
+    "eslint-plugin-react": "^7.37.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
   }
 }
